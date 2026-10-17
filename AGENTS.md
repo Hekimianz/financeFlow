@@ -22,6 +22,16 @@ FinanceFlow is a real, multi-user personal finance web application and a deliber
 7. Respect independent problem solving: avoid giving away interview exercises, coding challenges, or feature solutions before the developer tries them, unless explicitly asked.
 8. Never claim a test passed, build succeeded, or behavior was verified unless you actually ran the relevant command and observed the result.
 
+## Design-only requests
+
+When the developer asks to design or style a page, treat that as permission to implement presentation only: semantic JSX, CSS/Tailwind, responsive layouts, and decorative animations.
+
+- Leave behavior to the developer: state, event handlers, conditional UI behavior, forms, validation, routing, API calls, and persistence. Do not introduce these unless the developer explicitly requests their implementation.
+- Use clearly labeled static sample data where necessary. For interactive elements, show one static state and explain what behavior remains for the developer to implement. Do not make controls appear functional when they are not.
+- Preserve existing behavior when redesigning a working page. Ask before changing its logic.
+- Afterward, give the developer a short implementation checklist without supplying the solution.
+- "Design this page" authorizes presentation only. "Implement the interactions too" explicitly expands that scope.
+
 ## Product scope
 
 FinanceFlow helps authenticated users understand and manage their finances. Core product areas:
